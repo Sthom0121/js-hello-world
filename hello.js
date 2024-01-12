@@ -4,7 +4,19 @@ Enter your code on line 7 to print 'Hello, World!'
 to the console (the panel on the right)
 */
 
-console.log("Hello");
+//console.log(Number('33'));
+//const input = require('readline-sync');
+
+//let info = input.question("Please enter your age: ");
+//The users enters 25.
+
+//console.log(typeof info);
+const input = require('readline-sync');
+
+let info = input.question("Please enter your age: ");
+//The user enters 25.
+
+console.log(typeof info)
 
 /*  
 Next, PLAY! 
